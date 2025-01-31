@@ -1,0 +1,30 @@
+﻿using AdvancedMarsAutomation.Utilities;
+using AdvancedtaskSpecflow.Pages.Components.Profile;
+using AdvancedtaskSpecflow.Test_Model;
+using AdvancedtaskSpecflow.Utilities;
+
+namespace AdvancedtaskSpecflow.Steps
+{
+    public class DescriptionStep
+    {
+        ProfileDescriptionComponent DescriptionComponentObj;
+        public DescriptionStep()
+        {
+            DescriptionComponentObj = new ProfileDescriptionComponent();
+        }
+        public void AddDescription(string AddJsonFilePath)
+        {
+            List<DescriptionModel> DescriptionModelList = JsonHelper.ReadTestDataFromJson<DescriptionModel>(ConstantHelper.TestDataPath + AddJsonFilePath);
+            //List<DescriptionModel> DescriptionModelList = JsonHelper.ReadTestDataFromJson<DescriptionModel>(AddJsonFilePath);
+
+            foreach (var data in DescriptionModelList)
+            {
+                //Console.WriteLine($"data--{data}");
+                DescriptionComponentObj.enterDescription(data);
+                string actualmessage = DescriptionComponentObj.getMessage();
+                Console.WriteLine(actualmessage);
+            }
+
+        }
+    }
+}

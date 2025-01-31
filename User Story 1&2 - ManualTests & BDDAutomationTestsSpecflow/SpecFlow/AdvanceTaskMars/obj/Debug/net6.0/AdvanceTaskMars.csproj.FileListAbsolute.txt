@@ -1,0 +1,5 @@
+C:\Visual_studio_project\AdvanceTaskProjectMars-BDD-PerformanceTest\User Story 1&2 - ManualTests & BDDAutomationTestsSpecflow\SpecFlow\AdvanceTaskMars\obj\Debug\net6.0\AdvanceTaskMars.csproj.AssemblyReference.cache
+C:\Visual_studio_project\AdvanceTaskProjectMars-BDD-PerformanceTest\User Story 1&2 - ManualTests & BDDAutomationTestsSpecflow\SpecFlow\AdvanceTaskMars\obj\Debug\net6.0\AdvanceTaskMars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual_studio_project\AdvanceTaskProjectMars-BDD-PerformanceTest\User Story 1&2 - ManualTests & BDDAutomationTestsSpecflow\SpecFlow\AdvanceTaskMars\obj\Debug\net6.0\AdvanceTaskMars.AssemblyInfoInputs.cache
+C:\Visual_studio_project\AdvanceTaskProjectMars-BDD-PerformanceTest\User Story 1&2 - ManualTests & BDDAutomationTestsSpecflow\SpecFlow\AdvanceTaskMars\obj\Debug\net6.0\AdvanceTaskMars.AssemblyInfo.cs
+C:\Visual_studio_project\AdvanceTaskProjectMars-BDD-PerformanceTest\User Story 1&2 - ManualTests & BDDAutomationTestsSpecflow\SpecFlow\AdvanceTaskMars\obj\Debug\net6.0\AdvanceTaskMars.csproj.CoreCompileInputs.cache
